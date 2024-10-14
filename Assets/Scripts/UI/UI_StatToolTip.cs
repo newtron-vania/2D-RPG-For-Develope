@@ -20,6 +20,4 @@ public class UI_StatToolTip : UI_ToolTip
         description.text = "";
         gameObject.SetActive(false);
     }
-
-
 }

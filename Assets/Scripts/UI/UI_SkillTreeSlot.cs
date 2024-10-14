@@ -70,6 +70,7 @@ public class UI_SkillTreeSlot : MonoBehaviour , IPointerEnterHandler , IPointerE
         unlocked = true;
         skillImage.color = Color.white;
     }
+    
     public void OnPointerEnter(PointerEventData eventData)
     {
         ui.skillToolTip.ShowToolTip(skillDescription,skillName,skillCost);
